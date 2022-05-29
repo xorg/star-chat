@@ -1,0 +1,19 @@
+{
+  "name": "express",
+  "version": "1.0.0",
+  "description": "Chat application with express and socket.io",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "PORT=4000 nodemon .",
+    "test": "echo \"Error: no tests developed...yet :)\" && exit 1"
+  },
+  "author": "Stefan Schneider",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.2",
+    "jsonwebtoken": "^8.5.1",
+    "socket.io": "^4.4.1",
+    "unique-names-generator": "^4.7.1",
+    "validator": "^13.7.0"
+  }
+}
